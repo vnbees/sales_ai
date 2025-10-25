@@ -1,14 +1,18 @@
 {
   "dependencies": {
     "@google/generative-ai": "^0.17.0",
+    "better-sqlite3": "^12.4.1",
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "uuid": "^13.0.0"
   },
   "name": "node-gemini-chat",
   "version": "1.0.0",
   "description": "test",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
